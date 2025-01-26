@@ -1,6 +1,4 @@
 let grid = undefined;
-let stroke1 = prompt("Enter a color name in lower case.", "gray");
-let stroke2 = prompt("Enter another basic color.", "purple");
 function setup() {
   createCanvas(402, 645);
   background("#ccc");
@@ -13,32 +11,28 @@ function draw() {
   background(backdrop);
   // snowman legs
   fill("#f1f1f1");
-  strokeWeight(5);
-  stroke(stroke1);
-  // left
-  ellipse(150, 350, 100);
-  // h in [h] means optional
-  // right
-  ellipse(650, 650, 200);
+  strokeWeight(2);
+  stroke("gray");
   // body
-  ellipse(500, 450, 350, 400);
+  ellipse(200, 550, 40);
   // head
-  ellipse(500, 200, 200);
-  // hat brim
-  strokeWeight(35);
-  stroke(stroke2);
-  line(400, 120, 600, 120);
-  // hat body
-  quad(400, 50, 600, 50, 550, 120, 450, 120);
-  // eyes
-  stroke(0);
-  strokeWeight(50);
-  point(425, 200);
-  point(575, 200);
-  // mouth
-  noFill();
-  strokeWeight(10);
-  arc(500, 200, 80, 80, 0, HALF_PI);
-
+  ellipse (203, 521, 30);
+  ellipse(200, 500, 20);
+  stroke("black");
+  // arms
+  line(235, 530, 216, 515);
+  line(195, 530, 190, 515);
+  // child snowman
+  // bottom
+  stroke("gray");
+  ellipse(248, 560, 25);
+// torso
+  ellipse(246, 544, 20);
+  // head
+  ellipse(248, 530, 15);
+  //arms
+  stroke("black");
+  line(249, 540, 233, 535);
+  line(235, 540, 227, 530);
 
 }
