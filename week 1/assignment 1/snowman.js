@@ -10,7 +10,7 @@ function setup() {
 // could only to get loadImage to work when image lives inside project folder - not sure if that's
 // how it's supposed to be but alas!
 function draw() {
-  background(grid);
+  background("gray");
   // snowman classic base
   fill("#f1f1f1");
   strokeWeight(5);
