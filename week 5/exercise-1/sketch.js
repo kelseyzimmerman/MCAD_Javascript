@@ -16,6 +16,7 @@ function drawBlock(x, y, color) {
 }
 function keyPressed() {
   if (keyIsPressed === true) {
+    drawBlock(blockX, blockY, "yellow");
   console.log("you pressed the left arrow", keyCode === LEFT_ARROW);
 }}
 // executes every 50 (or "speed" seconds

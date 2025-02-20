@@ -45,7 +45,8 @@ class RexRectangle {
     }
 }
 
-
+// Classes ENCAPSULATE - or serve as TEMPLATES
+// new is keyword that creates new bubble
 
 /* class Auto {
     constructor (model, color) {
