@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kelseyzimmerman.github.io/MCAD_Javascript/"
+  "homepage": "https://kelseyzimmerman.github.io/MCAD_Javascript/",
 
   "scripts": {
     "predeploy" : "npm run build",
