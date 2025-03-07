@@ -4,14 +4,14 @@ import Camelid from "./Camelid";
 const App = () => {
   const llama = {
     name: "Llama",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Lama_glama_Lama_glama_juvenile_-_Calafate.JPG/320px-Lama_glama_Lama_glama_juvenile_-_Calafate.JPG",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Black_Llama_Side.jpg",
     trivia: "Llamas are known for their strength and are often used as pack animals."
   };
 
   const alpaca = {
     name: "Alpaca",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Alpaca_in_Luxembourg.jpg/320px-Alpaca_in_Luxembourg.jpg",
-    trivia: "Alpacas produce soft, luxurious wool that is highly valued in textiles."
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Handspun_llama_yarn.jpg",
+    trivia: "Alpaca wool is lovely to work with as a knitter."
   };
 
   return (
